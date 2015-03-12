@@ -1,0 +1,28 @@
+<html>
+	<head>
+			<link rel="stylesheet" type="text/css" href="style.css">	
+	</head>
+
+	<body background="grass.jpg">
+		<h1>The Coffee Classic</h1>
+		
+		<script src="horseRace.js"></script>
+
+		<div id="racers">
+			<img id="racer1" src = "horse.png" width = 150 style="left: 0;"></img>
+			<table width = 100%><tr><td></td></tr></table>
+		</div>
+
+		<form>
+			<button  id='newhorse' type='button' class='myButton' onclick="newHorse()" >+</button>
+			<button  id='removehorse' type='button' class='myButton' onclick="removeHorse()" style="visibility:hidden;">
+				-
+			</button>
+			
+
+			<hr noshade style="color:#FFFFFF">
+			<input type="button" value="RACE"  class='myButton' onclick="doRace()" />
+		</form>
+
+	</body>
+</html>
