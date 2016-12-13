@@ -1,6 +1,8 @@
 var numHorses = 1
 var raceThread
 
+//test update
+
 function moveRight(){
 	
 	var randNumMin = 1;
