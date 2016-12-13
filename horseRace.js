@@ -1,7 +1,7 @@
 var numHorses = 1
 var raceThread
 
-//test update
+//test update again
 
 function moveRight(){
 	
